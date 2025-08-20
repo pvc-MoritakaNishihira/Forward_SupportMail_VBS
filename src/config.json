@@ -1,0 +1,23 @@
+{
+  "Gloval": {
+    "TestMode": true,
+    "OutlookObject": "Outlook.Application",
+    "NameSpace": "MAPI"
+  },
+  "ForwardMailInfo": {
+    "MailCheckInterval": 60000,
+    "MailSendInterval": 30000,
+    "ForwardTargets": [
+      {
+        "MailBoxType": "normal",
+        "MailBoxName": "inbox",
+        "CheckTargetMailAddress": "moritaka_nishihira@pvcjp.com",
+        "ForwardMailAddress": "moritaka.mn.nishihira@jp.ricoh.com",
+        "ForwardMailTemplate": {
+          "Subject": "【メール転送テスト】",
+          "Body": "これはメール転送のテストです。"
+        }
+      }
+    ]
+  }
+}

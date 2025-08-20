@@ -1,0 +1,9 @@
+{
+  "editor.tabSize": 2,
+  "code-runner.executorMap": {
+    "vbscript": "cscript //Nologo"
+  },
+  "code-runner.fileExtensionMap": {
+    "vbs": "vbscript"
+  }
+}
